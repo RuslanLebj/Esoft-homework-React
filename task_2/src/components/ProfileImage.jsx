@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardTitle = ({ image }) => {
+const ProfileImage = ({ image }) => {
     return (
         <div>
             <img src={image} alt="profileImage" />
@@ -8,4 +8,4 @@ const CardTitle = ({ image }) => {
     );
 }
 
-export default CardTitle;
+export default ProfileImage;
