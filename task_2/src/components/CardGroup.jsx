@@ -6,8 +6,8 @@ const CardGroup = ({ title, items }) => {
     <div>
       <h2>{title}</h2>
       <div className="card-group">
-        {/* Добавление индекса к ключу для гарантии уникальности в случае повторяющихся элементов */}
-        {items.map((item, index) => <SkillCard key={`${item}-${index}`} skill={item} />)}
+        {/* Используем уникальное свойство каждого элемента как ключ, предполагая, что каждый item имеет уникальный 'id' */}
+        {items.map(item => <SkillCard key={item.id} skill={item.name} />)}
       </div>
     </div>
   );
