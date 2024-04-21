@@ -1,0 +1,82 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "name": "Django REST framework",
+            "description": "Framework for building APIs in Django",
+            "level": 80
+        },
+        {
+            "id": 2,
+            "name": "Flask",
+            "description": "A lightweight WSGI web application framework",
+            "level": 70
+        },
+        {
+            "id": 3,
+            "name": "React",
+            "description": "A JavaScript library for building user interfaces",
+            "level": 70
+        },
+        {
+            "id": 4,
+            "name": "Tailwind",
+            "description": "A utility-first CSS framework for rapid UI development",
+            "level": 50
+        },
+        {
+            "id": 5,
+            "name": "Docker",
+            "description": "A set of platform as a service products that use OS-level virtualization",
+            "level": 30
+        },
+        {
+            "id": 6,
+            "name": "Golang",
+            "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software",
+            "level": 20
+        },
+        {
+            "id": 7,
+            "name": "TypeScript",
+            "description": "A strict syntactical superset of JavaScript and adds optional static typing",
+            "level": 10
+        },
+        {
+            "id": 8,
+            "name": "Redux",
+            "description": "A Predictable State Container for JS Apps",
+            "level": 0
+        },
+        {
+            "id": 9,
+            "name": "GraphQL",
+            "description": "A query language for your API",
+            "level": 30
+        },
+        {
+            "id": 10,
+            "name": "Kubernetes",
+            "description": "An open-source system for automating deployment, scaling, and management of containerized applications",
+            "level": 0
+        },
+        {
+            "id": 11,
+            "name": "RabbitMQ",
+            "description": "Open source message broker software that implements the Advanced Message Queuing Protocol",
+            "level": 30
+        },
+        {
+            "id": 12,
+            "name": "Redis",
+            "description": "An in-memory data structure project implementing a distributed, in-memory key–value database",
+            "level": 20
+        },
+        {
+            "id": 13,
+            "name": "Angular",
+            "description": "A platform for building mobile and desktop web applications",
+            "level": 0
+        }
+    ]
+}
