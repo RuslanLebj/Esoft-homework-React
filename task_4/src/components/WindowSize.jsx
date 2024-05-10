@@ -17,12 +17,12 @@ function WindowSize() {
 
     // Эффект для добавления и удаления обработчика события resize
     useEffect(() => {
-        console.log('Component mounted. Setting up resize event listener...');
+        // console.log('Component mounted. Setting up resize event listener...');
         window.addEventListener('resize', handleResize);
 
         // Функция очистки для удаления обработчика события
         return () => {
-            console.log('Component will unmount. Removing resize event listener...');
+            // console.log('Component will unmount. Removing resize event listener...');
             window.removeEventListener('resize', handleResize);
         };
     }, []);
